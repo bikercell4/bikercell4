@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artistic Truck Drivers</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <style>
+        body {
+            background-color: chartreuse;
+        }
+
+        h1, h2, h3, blockquote {
+            text-align: center;
+            color: rgb(226, 149, 47);
+            font-size: xx-large;
+            
+        } 
+
+        .gifs-and-vids {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .silly-gifs {
+            display: flex;
+            margin-top: -300px;
+        }
+        
+        .silly-gifs img {
+            width: 200px;
+            height: auto;
+            object-fit: cover;
+            margin: 300px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dynamic Dancing Duo Dedicated to Choreography in Cleveland for Cellist Everywhere!!!!</h1>
+    </header>
+    <br>
+    <main>
+        <h3>Winners of the 2004 Cleveland Institute of Music Dance Competition</h3>
+        <div class = "gifs-and-vids">
+        <img src="https://i.gifer.com/Giay.gif" alt="Grave digger doughnuts">
+        <iframe width="541" height="379" src="https://www.youtube.com/embed/15SBymKnB8c" title="&quot;The Artistic Truck Drivers&quot; at 2003 CIM Dance Competition" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <img src="https://i.gifer.com/Giay.gif" alt="digger doughnuts 2">
+    </div>
+        <br>
+        <section id = "quotes">
+            <h2>Quotes of note</h2>
+            <blockquote>
+                "I don't know whether to be extremely proud or profoundly disappointed" -my dad
+            </blockquote>
+            <blockquote>
+                "Unreal" - judge
+            </blockquote>
+            <blockquote>
+                "Amazing" - audience member
+            <blockquote>
+             <div class = "silly-gifs">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5fc09b4d-b6f5-4047-8420-49722602712a/de3gml6-c608b550-67d7-4def-a8f3-404a200dafe5.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzVmYzA5YjRkLWI2ZjUtNDA0Ny04NDIwLTQ5NzIyNjAyNzEyYVwvZGUzZ21sNi1jNjA4YjU1MC02N2Q3LTRkZWYtYThmMy00MDRhMjAwZGFmZTUuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.E6c6u8keUQC-o-GuiTJG8RYaZcPj_zpHDSdO84a6KhM" alt="floss">
+                <img src="https://gifdb.com/images/high/dab-unicorn-qrrjjpeh7brpn1ni.gif" alt="unicorn dab">
+                <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/e6e44944238707.5a72a8476d5ac.gif" alt="windmill">
+             </div>   
+    </main>
+    
+</body>
+</html>
